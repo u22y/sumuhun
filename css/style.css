@@ -1,0 +1,94 @@
+.nav-search .ui-btn-up-a {
+    background-image:none;
+    background-color:#333333;
+}
+.nav-search .ui-btn-inner {
+    border-top: 1px solid #888;
+    border-color: rgba(255, 255, 255, .1);
+}
+.nav-search .ui-btn.ui-first-child {
+    border-top-width: 0;
+    background: #111;
+}
+.userform {
+    padding: .8em 1.2em;
+}
+.userform h2 {
+    color: #555;
+    margin: 0.3em 0 .8em 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.userform label {
+    display: block;
+    margin-top: 1.2em;
+}
+.switch .ui-slider-switch {
+    width: 6.5em !important;
+}
+.ui-grid-a {
+    margin-top: 1em;
+    padding-top: .8em;
+    margin-top: 1.4em;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+#navigation {
+    background: url( "img/navigation.png" );
+    height: 80px;
+}
+
+#navigation li {
+    float: left;
+    height: 30px;
+    margin: 0 60px 0 0;
+    text-indent: -9999px;
+}
+
+#navigation li.index {
+    background: url( "img/home.png" );
+    width: 54px;
+}
+
+#navigation li.services {
+    background: url( "img/services.png" );
+    width: 61px;
+}
+
+html, body {
+ height: 100%;
+}
+
+ul#navigation {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+
+#navigation {
+position: fixed;
+top: 0;
+width: 100%;
+color: #ffffff;
+height: 35px;
+text-align: center;
+padding-top: 15px;
+/* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;
+/* Adds the transparent background */
+background-color: rgba(1, 1, 1, 0.8);
+color: rgba(1, 1, 1, 0.8);
+}
+#navigation a {
+font-size: 14px;
+padding-left: 15px;
+padding-right: 15px;
+color: white;
+text-decoration: none;
+}
+
+#navigation a:hover {
+color: grey;
+} 
