@@ -1,0 +1,71 @@
+<html> 
+    <head> 
+    <title>SUMUHUN</title> 
+	<!-- <link rel="stylesheet" type= "text/css" href="css/style.css" /> -->
+    <link rel="stylesheet" type= "text/css" href="css/jquery.mobile-1.4.2.min.css" />
+    <script src="jquery/jquery-1.11.1.min.js"></script>
+    <script src="jquery/jquery.mobile-1.4.2.min.js"></script>
+			<link rel="shortcut icon" href="../favicon.ico">
+		
+	</head>
+
+
+<body bgcolor="#FFBE32">
+<center>
+<div data-role="navbar">
+    <ul>
+		<li class="logo"><a href="indexx.html"><img src="img/sumuhun.jpg" width="130" height="40" alt="logo"></a></li>
+		<li class="logout"><a href="logout.php"><img src="img/logout.png" width="70" height="40" alt="logout"></a></li>
+    </ul>
+</div>
+
+<form>
+    <input data-type="search" id="searchForCollapsibleSetChildren">
+</form>
+    <div data-role="collapsibleset" data-filter="true" data-children="> div, > div div ul li" data-inset="true" id="collapsiblesetForFilterChildren" data-input="#searchForCollapsibleSetChildren">
+        <div data-role="collapsible" data-filtertext="Novel Harry_Potter Lord_Of_The_Rings Twilight Zeida">
+            <h3>Novel</h3>
+            <ul data-role="listview" data-inset="false">
+                <li data-filtertext="Novel Harry_Potter">Harry Potter</li>
+                <li data-filtertext="Novel Lord_Of_The_Rings">Lord Of The Rings</li>
+                <li data-filtertext="Novel Twilight">Twilight</li>
+                <li data-filtertext="Novel Zeida">Zeida</li>
+            </ul>
+        </div>
+        <div data-role="collapsible" data-filtertext="Cars Acura Audi BMW Cadillac">
+            <h3>Pendidikan</h3>
+            <ul data-role="listview" data-inset="false">
+                <li data-filtertext="Cars Acura">Acura</li>
+                <li data-filtertext="Cars Audi">Audi</li>
+                <li data-filtertext="Cars BMW">BMW</li>
+                <li data-filtertext="Cars Cadillac">Cadillac</li>
+            </ul>
+        </div>
+        <div data-role="collapsible" data-filtertext="Planets Earth Jupiter Mars Mercury">
+            <h3>Politik</h3>
+            <ul data-role="listview" data-inset="false">
+                <li data-filtertext="Planets Acura">Earth</li>
+                <li data-filtertext="Planets Jupiter">Jupiter</li>
+                <li data-filtertext="Planets Mars">Mars</li>
+                <li data-filtertext="Planets Mercury">Mercury</li>
+            </ul>
+        </div>
+    </div>    
+    
+</ul>
+	
+
+</select>	
+</center>
+	
+	<div data-role="navbar">
+    <ul>
+        <li class="home"><a href="indexx.html"><img src="img/home.png" width="30" height="25" alt="Home"></a></li>
+        <li class="account"><a href="account.html"><img src="img/account.png" width="30" height="25" alt="Account"></a></li>
+        <li class="private_message"><a href="private_message.html"><img src="img/message.png" width="30" height="25" alt="private_message"></a></li>
+       	<li class="new_thread"><a href="new_thread.html"><img src="img/new_thread.jpg" width="30" height="25" alt="new_thread"></a></li>
+        <li class="my_thread"><a href="my_thread.html"><img src="img/my_thread.jpg" width="30" height="25" alt="my_thread"></a></li>
+        
+    </ul>
+</div><!-- /navbar -->
+</html>
